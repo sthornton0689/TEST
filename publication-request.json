@@ -1,0 +1,13 @@
+{
+	"package-id": "hl7.fhir.us.shanai",
+	"version": "0.1.0",
+	"path": "https://fhir.org/fhir/us/shanai",
+	"milestone": false,
+	"status": "ci-build",
+	"sequence": "Releases",
+	"desc": "New IG: Shanai's Test IG",
+	"title": "Shanai's Test IG",
+	"category": "National Base",
+	"ci-build": "http://build.fhir.org/ig/",
+	"introduction": "New IG: Shanai's Test IG"
+}

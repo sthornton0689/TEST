@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide
+    xmlns="http://hl7.org/fhir">
+    <id value="hl7-fhir-us-shanai"/>
+    <meta>
+        <versionId value="7"/>
+        <lastUpdated value="2023-05-24T20:46:55.056+00:00"/>
+        <source value="#qAj19AM2gPrzfh5i"/>
+    </meta>
+    <url value="https://fhir.org/fhir/US/shanai/ImplementationGuide/hl7-fhir-us-shanai"/>
+    <version value="0.1.0"/>
+    <name value="STIG"/>
+    <title value="Shanai's Test IG"/>
+    <status value="draft"/>
+    <contact>
+        <name value="HL7 International - Standards Governance Board"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/sgb"/>
+        </telecom>
+    </contact>
+    <description value="This IG is a test IG created by Shanai."/>
+    <packageId value="hl7.fhir.us.shanai"/>
+    <fhirVersion value="4.0.1"/>
+    <definition>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/test-patient-xyz"/>
+                <display value="TestPatientxyz"/>
+            </reference>
+            <name value="Test Patient (XYZ)"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/test-encounter-xyz"/>
+                <display value="TestEncounterxyz"/>
+            </reference>
+            <name value="Test Encounter (XYZ)"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <page>
+            <nameUrl value="index.html"/>
+            <title value="Home Page"/>
+            <generation value="markdown"/>
+        </page>
+        <parameter>
+            <code value="copyrightyear"/>
+            <value value="2020+"/>
+        </parameter>
+        <parameter>
+            <code value="releaselabel"/>
+            <value value="CI Build"/>
+        </parameter>
+    </definition>
+</ImplementationGuide>

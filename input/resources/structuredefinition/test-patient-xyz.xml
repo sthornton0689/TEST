@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="test-patient-xyz"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2023-05-24T16:53:47.499+00:00"/>
+        <source value="#zRgPmdZoeGunlndT"/>
+    </meta>
+    <url value="https://fhir.org/fhir/us/shanai/StructuredDefinition/test-patient-xyz"/>
+    <name value="TestPatientxyz"/>
+    <title value="Test Patient (XYZ)"/>
+    <status value="active"/>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Patient"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Patient">
+            <path value="Patient"/>
+        </element>
+        <element id="Patient.name">
+            <path value="Patient.name"/>
+            <min value="1"/>
+        </element>
+    </differential>
+</StructureDefinition>

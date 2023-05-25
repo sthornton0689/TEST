@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="test-encounter-xyz"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2023-05-24T20:46:54.968+00:00"/>
+        <source value="#PA3e0R8iWjRi3wYC"/>
+    </meta>
+    <url value="https://fhir.org/fhir/us/shanai/StructuredDefinition/test-encounter-xyz"/>
+    <name value="TestEncounterxyz"/>
+    <title value="Test Encounter (XYZ)"/>
+    <status value="active"/>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Encounter"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Encounter"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Encounter">
+            <path value="Encounter"/>
+        </element>
+        <element id="Encounter.type">
+            <path value="Encounter.type"/>
+            <min value="1"/>
+            <max value="*"/>
+        </element>
+        <element id="Encounter.subject">
+            <path value="Encounter.subject"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+    </differential>
+</StructureDefinition>
